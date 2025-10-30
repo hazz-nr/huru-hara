@@ -40,9 +40,11 @@ def main ():
 	elif Pilihan == "3":
 		print()
 		print ("Good Bye!!")
+		print ()
 		
 	else :
 		print ("ngetik apaan sih bang")
+		print ()
 	
 if __name__ == "__main__" :
 	main ()
