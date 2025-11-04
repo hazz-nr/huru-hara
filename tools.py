@@ -43,6 +43,7 @@ def main ():
 		print ()
 		
 	else :
+		print ()
 		print ("ngetik apaan sih bang")
 		print ()
 	
