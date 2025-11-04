@@ -16,7 +16,7 @@ def main ():
 	Pilihan = input ("masukan pilihan : ")
 	
 	if Pilihan == "1":
-		sandi = input ("silahkan masukan sandi untuk mengakses : ")
+		sandi = getpass.getpass ("silahkan masukan sandi untuk mengakses : ")
 		if sandi == "31":
 			print()
 			print ("https://github.com/novalagung/dasarpemrogramanpython/raw/ebooks/dasarpemrogramanpython.pdf?v=beta1.20231011")
@@ -27,7 +27,7 @@ def main ():
 			exit()
 			
 	elif Pilihan == "2":
-		sandi = input ("silahkan masukan kata kunci untuk mengakses : ")
+		sandi = getpass.getpass ("silahkan masukan kata kunci untuk mengakses : ")
 		if sandi == "31":
 			print()
 			print ("https://repository.bsi.ac.id/index.php/unduh/item/242521/cover-dan-isi-lengkap-web-pro.pdf")
